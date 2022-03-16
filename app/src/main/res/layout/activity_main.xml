@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#E73B4B"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginBottom="50dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-80dp"
+        android:text="ENDEREÇO DE EMAIL"
+        android:textColor="#80FFFFFF" />
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:text="________________________________________________"
+        android:layout_margin=
+        android:textColor="#80FFFFFF" />
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="-125dp"
+        android:text="SENHA"
+        android:textColor="#80FFFFFF" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="-10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="________________________________________________"
+        android:textColor="#80FFFFFF" />
+
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="#80FFFFFF"
+        android:text="Login"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtAjuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Esqueceu a senha?"
+        android:textColor="#80FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtAjuda2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="____________         ou        ____________"
+        android:textColor="#8FFFFFFF" />
+
+    <TextView
+        android:id="@+id/txtAjuda3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastre-se"
+        android:textColor="#81FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="-15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="____________"
+        android:textColor="#83FFFFFF" />
+
+</LinearLayout>
